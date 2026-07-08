@@ -1,13 +1,18 @@
+"use client";
+
 import Link from "next/link";
+import { useAccount } from "@/lib/accountContext";
 
 const navLinks = [
   { href: "#pillars", label: "Explore" },
   { href: "#paths", label: "Paths" },
   { href: "#principles", label: "Philosophy" },
-  { href: "#contributor", label: "This branch" },
+  { href: "#account", label: "Account" },
 ];
 
 export function Header() {
+  const { user } = useAccount();
+
   return (
     <header className="sticky top-0 z-50 border-b border-surface-border bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-4">
@@ -37,17 +42,29 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex shrink-0 items-center gap-3">
-          <span className="hidden rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-medium text-emerald-300 sm:inline-flex">
-            Preview build
-          </span>
+        {user ? (
+          <a
+            href="#account"
+            className="flex items-center gap-2 rounded-full border border-surface-border bg-surface px-4 py-2 text-sm font-medium transition hover:border-accent/40"
+          >
+            <span className="flex h-6 w-6 items-center justify-center rounded-full bg-accent/20 text-xs text-accent-soft">
+              {user.name
+                .split(" ")
+                .map((part) => part[0])
+                .join("")
+                .slice(0, 2)
+                .toUpperCase()}
+            </span>
+            {user.name.split(" ")[0]}
+          </a>
+        ) : (
           <Link
-            href="#paths"
+            href="#account"
             className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-white transition hover:bg-accent-soft"
           >
-            Explore paths
+            Sign in
           </Link>
-        </div>
+        )}
       </div>
     </header>
   );
