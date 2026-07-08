@@ -16,6 +16,9 @@ export default function Home() {
         <LearningPaths />
         <Principles />
         <CallToAction />
+        <h1>
+          Hello World
+        </h1>
       </main>
       <Footer />
     </>
