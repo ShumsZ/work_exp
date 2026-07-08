@@ -49,7 +49,7 @@
                   "id": "TCR2T",
                   "fill": "$text-primary",
                   "content": "ComputeBeauty",
-                  "fontFamily": "Geist",
+                  "fontFamily": "$font-bold",
                   "fontSize": 16,
                   "fontWeight": "600"
                 }
@@ -171,7 +171,7 @@
                   "id": "RZg60",
                   "fill": "$text-primary",
                   "content": "Your First Program",
-                  "fontFamily": "Geist",
+                  "fontFamily": "$font-bold",
                   "fontSize": 40,
                   "fontWeight": "700"
                 },
@@ -290,7 +290,7 @@
                       "id": "F4b2F4",
                       "fill": "#ffffff14",
                       "content": "01",
-                      "fontFamily": "Geist Mono",
+                      "fontFamily": "$font-bold",
                       "fontSize": 32,
                       "fontWeight": "700"
                     },
@@ -306,7 +306,7 @@
                           "id": "NeOJ0",
                           "fill": "$text-primary",
                           "content": "Hello, Code",
-                          "fontFamily": "Geist",
+                          "fontFamily": "$font-bold",
                           "fontSize": 18,
                           "fontWeight": "600"
                         },
@@ -358,7 +358,7 @@
                       "id": "ZuYb5",
                       "fill": "#ffffff14",
                       "content": "02",
-                      "fontFamily": "Geist Mono",
+                      "fontFamily": "$font-bold",
                       "fontSize": 32,
                       "fontWeight": "700"
                     },
@@ -374,7 +374,7 @@
                           "id": "oRzS4",
                           "fill": "$text-primary",
                           "content": "Logic & Loops",
-                          "fontFamily": "Geist",
+                          "fontFamily": "$font-bold",
                           "fontSize": 18,
                           "fontWeight": "600"
                         },
@@ -426,7 +426,7 @@
                       "id": "AUjJH",
                       "fill": "#ffffff14",
                       "content": "03",
-                      "fontFamily": "Geist Mono",
+                      "fontFamily": "$font-bold",
                       "fontSize": 32,
                       "fontWeight": "700"
                     },
@@ -442,7 +442,7 @@
                           "id": "GBmBS",
                           "fill": "$text-primary",
                           "content": "Functions & Errors",
-                          "fontFamily": "Geist",
+                          "fontFamily": "$font-bold",
                           "fontSize": 18,
                           "fontWeight": "600"
                         },
@@ -494,7 +494,7 @@
                       "id": "HLEmb",
                       "fill": "#ffffff14",
                       "content": "04",
-                      "fontFamily": "Geist Mono",
+                      "fontFamily": "$font-bold",
                       "fontSize": 32,
                       "fontWeight": "700"
                     },
@@ -510,7 +510,7 @@
                           "id": "U278NP",
                           "fill": "$text-primary",
                           "content": "Mini Project",
-                          "fontFamily": "Geist",
+                          "fontFamily": "$font-bold",
                           "fontSize": 18,
                           "fontWeight": "600"
                         },
@@ -869,7 +869,7 @@
                   "id": "PdM54",
                   "fill": "$text-primary",
                   "content": "ComputeBeauty",
-                  "fontFamily": "Geist",
+                  "fontFamily": "$font-bold",
                   "fontSize": 16,
                   "fontWeight": "600"
                 }
@@ -991,7 +991,7 @@
                   "id": "DmolK",
                   "fill": "$text-primary",
                   "content": "Build & Ship",
-                  "fontFamily": "Geist",
+                  "fontFamily": "$font-bold",
                   "fontSize": 40,
                   "fontWeight": "700"
                 },
@@ -1110,7 +1110,7 @@
                       "id": "j3wbPv",
                       "fill": "#ffffff14",
                       "content": "01",
-                      "fontFamily": "Geist Mono",
+                      "fontFamily": "$font-bold",
                       "fontSize": 32,
                       "fontWeight": "700"
                     },
@@ -1126,7 +1126,7 @@
                           "id": "xmrIm",
                           "fill": "$text-primary",
                           "content": "Design a Small App",
-                          "fontFamily": "Geist",
+                          "fontFamily": "$font-bold",
                           "fontSize": 18,
                           "fontWeight": "600"
                         },
@@ -1178,7 +1178,7 @@
                       "id": "oatSJ",
                       "fill": "#ffffff14",
                       "content": "02",
-                      "fontFamily": "Geist Mono",
+                      "fontFamily": "$font-bold",
                       "fontSize": 32,
                       "fontWeight": "700"
                     },
@@ -1194,7 +1194,7 @@
                           "id": "P8k7zz",
                           "fill": "$text-primary",
                           "content": "Tests First",
-                          "fontFamily": "Geist",
+                          "fontFamily": "$font-bold",
                           "fontSize": 18,
                           "fontWeight": "600"
                         },
@@ -1246,7 +1246,7 @@
                       "id": "vSav4",
                       "fill": "#ffffff14",
                       "content": "03",
-                      "fontFamily": "Geist Mono",
+                      "fontFamily": "$font-bold",
                       "fontSize": 32,
                       "fontWeight": "700"
                     },
@@ -1262,7 +1262,7 @@
                           "id": "Q8RsL",
                           "fill": "$text-primary",
                           "content": "Git & Pull Requests",
-                          "fontFamily": "Geist",
+                          "fontFamily": "$font-bold",
                           "fontSize": 18,
                           "fontWeight": "600"
                         },
@@ -1314,7 +1314,7 @@
                       "id": "S56f3T",
                       "fill": "#ffffff14",
                       "content": "04",
-                      "fontFamily": "Geist Mono",
+                      "fontFamily": "$font-bold",
                       "fontSize": 32,
                       "fontWeight": "700"
                     },
@@ -1330,7 +1330,7 @@
                           "id": "lpj6e",
                           "fill": "$text-primary",
                           "content": "Deploy",
-                          "fontFamily": "Geist",
+                          "fontFamily": "$font-bold",
                           "fontSize": 18,
                           "fontWeight": "600"
                         },
@@ -1689,7 +1689,7 @@
                   "id": "DtNpU",
                   "fill": "$text-primary",
                   "content": "ComputeBeauty",
-                  "fontFamily": "Geist",
+                  "fontFamily": "$font-bold",
                   "fontSize": 16,
                   "fontWeight": "600"
                 }
@@ -1811,7 +1811,7 @@
                   "id": "OCa5H",
                   "fill": "$text-primary",
                   "content": "AI-Augmented Builder",
-                  "fontFamily": "Geist",
+                  "fontFamily": "$font-bold",
                   "fontSize": 40,
                   "fontWeight": "700"
                 },
@@ -1930,7 +1930,7 @@
                       "id": "KMvUW",
                       "fill": "#ffffff14",
                       "content": "01",
-                      "fontFamily": "Geist Mono",
+                      "fontFamily": "$font-bold",
                       "fontSize": 32,
                       "fontWeight": "700"
                     },
@@ -1946,7 +1946,7 @@
                           "id": "kFJt2",
                           "fill": "$text-primary",
                           "content": "Solid Foundations",
-                          "fontFamily": "Geist",
+                          "fontFamily": "$font-bold",
                           "fontSize": 18,
                           "fontWeight": "600"
                         },
@@ -1998,7 +1998,7 @@
                       "id": "RkwaF",
                       "fill": "#ffffff14",
                       "content": "02",
-                      "fontFamily": "Geist Mono",
+                      "fontFamily": "$font-bold",
                       "fontSize": 32,
                       "fontWeight": "700"
                     },
@@ -2014,7 +2014,7 @@
                           "id": "GJf1Q",
                           "fill": "$text-primary",
                           "content": "AI-Assisted Development",
-                          "fontFamily": "Geist",
+                          "fontFamily": "$font-bold",
                           "fontSize": 18,
                           "fontWeight": "600"
                         },
@@ -2066,7 +2066,7 @@
                       "id": "l6z1rA",
                       "fill": "#ffffff14",
                       "content": "03",
-                      "fontFamily": "Geist Mono",
+                      "fontFamily": "$font-bold",
                       "fontSize": 32,
                       "fontWeight": "700"
                     },
@@ -2082,7 +2082,7 @@
                           "id": "kdt2h",
                           "fill": "$text-primary",
                           "content": "Responsible AI",
-                          "fontFamily": "Geist",
+                          "fontFamily": "$font-bold",
                           "fontSize": 18,
                           "fontWeight": "600"
                         },
@@ -2134,7 +2134,7 @@
                       "id": "Ffh2k",
                       "fill": "#ffffff14",
                       "content": "04",
-                      "fontFamily": "Geist Mono",
+                      "fontFamily": "$font-bold",
                       "fontSize": 32,
                       "fontWeight": "700"
                     },
@@ -2150,7 +2150,7 @@
                           "id": "wOr2q",
                           "fill": "$text-primary",
                           "content": "Capstone",
-                          "fontFamily": "Geist",
+                          "fontFamily": "$font-bold",
                           "fontSize": 18,
                           "fontWeight": "600"
                         },
@@ -2506,6 +2506,10 @@
     "badge-advanced-text": {
       "type": "color",
       "value": "#e879f9"
+    },
+    "font-bold": {
+      "type": "string",
+      "value": "Playfair Display"
     }
   },
   "fileToken": "a9e3988c-31c5-43b6-89e7-4927b0ce0483"
