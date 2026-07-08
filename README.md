@@ -34,11 +34,11 @@ src/
 
 Each path card links to a syllabus preview page:
 
-| Path | URL |
-|------|-----|
-| Your First Program (Beginner) | `/paths/first-program` |
-| Build & Ship (Intermediate) | `/paths/build-and-ship` |
-| AI-Augmented Builder (Advanced) | `/paths/ai-builder` |
+| Path                            | URL                     |
+| ------------------------------- | ----------------------- |
+| Your First Program (Beginner)   | `/paths/first-program`  |
+| Build & Ship (Intermediate)     | `/paths/build-and-ship` |
+| AI-Augmented Builder (Advanced) | `/paths/ai-builder`     |
 
 ## Customize for your class
 
@@ -48,12 +48,20 @@ Each path card links to a syllabus preview page:
 
 ## Scripts
 
-| Command       | Description              |
-|---------------|--------------------------|
-| `npm run dev` | Start dev server         |
-| `npm run build` | Production build       |
-| `npm run start` | Start production server |
-| `npm run lint` | Run ESLint              |
+| Command                  | Description                              |
+| ------------------------ | ---------------------------------------- |
+| `npm run dev`            | Start dev server                         |
+| `npm run build`          | Production build                         |
+| `npm run start`          | Start production server                  |
+| `npm run lint`           | Run ESLint                               |
+| `npm run lint:strict`    | ESLint with zero warnings                |
+| `npm run test`           | Run unit tests                           |
+| `npm run test:coverage`  | Tests with 80% coverage gate             |
+| `npm run test:exist`     | Verify every lib/component file has tests |
+| `npm run typecheck`      | TypeScript type checking                 |
+| `npm run knip`           | Dead code & unused export detection      |
+| `npm run format:check`   | Prettier formatting check                |
+| `npm run ci`             | Run the full CI pipeline locally         |
 
 ## License
 

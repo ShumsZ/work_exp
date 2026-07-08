@@ -185,8 +185,7 @@ export const paths: LearningPath[] = [
           title: "Capstone",
           duration: "Week 6 · 7 days",
           topics: ["Full-stack feature", "AI + engineering", "Ship it"],
-          outcome:
-            "Ship a production feature combining AI tools and solid engineering.",
+          outcome: "Ship a production feature combining AI tools and solid engineering.",
         },
       ],
     },

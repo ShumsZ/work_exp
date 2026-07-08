@@ -12,8 +12,8 @@ export function CallToAction() {
               Ready to see what you can build?
             </h2>
             <p className="mt-4 text-muted">
-              Fork this repo, run it locally, and make it yours. Add lessons, labs,
-              or your own AI experiments—the best way to learn is to create.
+              Fork this repo, run it locally, and make it yours. Add lessons, labs, or
+              your own AI experiments—the best way to learn is to create.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">

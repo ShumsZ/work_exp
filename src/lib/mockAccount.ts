@@ -65,8 +65,7 @@ export function findUserByCredentials(
 ): MockUser | undefined {
   const normalizedEmail = email.trim().toLowerCase();
   return users.find(
-    (user) =>
-      user.email.toLowerCase() === normalizedEmail && user.password === password,
+    (user) => user.email.toLowerCase() === normalizedEmail && user.password === password,
   );
 }
 

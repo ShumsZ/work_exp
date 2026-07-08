@@ -1,0 +1,13 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": ["src/app/**/*.{ts,tsx}", "eslint.config.mjs", "postcss.config.mjs"],
+  "project": ["src/**/*.{ts,tsx}", "scripts/**/*.{mjs,js,ts}"],
+  "ignore": ["**/*.{test,spec}.{ts,tsx}", "src/test-utils.tsx"],
+  "ignoreDependencies": [
+    "@tailwindcss/postcss",
+    "@eslint/eslintrc",
+    "eslint-config-next",
+    "tailwindcss"
+  ],
+  "ignoreExportsUsedInFile": true
+}

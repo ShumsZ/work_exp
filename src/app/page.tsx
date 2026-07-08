@@ -18,9 +18,7 @@ export default function Home() {
         <Principles />
         <Account />
         <CallToAction />
-        <h1>
-          Hello World
-        </h1>
+        <h1>Hello World</h1>
       </main>
       <Footer />
     </>

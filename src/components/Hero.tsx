@@ -35,12 +35,17 @@ export function Hero() {
           id="contributor"
           className="mt-8 max-w-2xl rounded-2xl border border-surface-border bg-surface/80 p-5 backdrop-blur-sm"
         >
-          <p className="text-sm font-semibold text-foreground">Building on a personal branch</p>
+          <p className="text-sm font-semibold text-foreground">
+            Building on a personal branch
+          </p>
           <p className="mt-2 text-sm leading-relaxed text-muted">
-            This preview keeps contributor experiments separate from the shared class site on{" "}
-            <code className="rounded bg-background px-1.5 py-0.5 text-accent-soft">main</code>.
-            New header navigation, branch labels, and hero callouts help teammates spot preview
-            work before it merges.
+            This preview keeps contributor experiments separate from the shared class site
+            on{" "}
+            <code className="rounded bg-background px-1.5 py-0.5 text-accent-soft">
+              main
+            </code>
+            . New header navigation, branch labels, and hero callouts help teammates spot
+            preview work before it merges.
           </p>
         </div>
 
