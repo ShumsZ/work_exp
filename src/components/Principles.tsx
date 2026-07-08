@@ -13,8 +13,8 @@ export function Principles() {
               Engineering is a human craft
             </h2>
             <p className="mt-4 text-muted">
-              AI can accelerate your work, but judgment, empathy, and clarity still
-              belong to you. We teach both—the tools and the thinking.
+              AI can accelerate your work, but judgment, empathy, and clarity still belong
+              to you. We teach both—the tools and the thinking.
             </p>
           </div>
 
@@ -25,7 +25,9 @@ export function Principles() {
                 className="rounded-2xl border border-surface-border bg-surface p-6"
               >
                 <h3 className="font-semibold">{principle.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted">{principle.body}</p>
+                <p className="mt-2 text-sm leading-relaxed text-muted">
+                  {principle.body}
+                </p>
               </li>
             ))}
           </ul>

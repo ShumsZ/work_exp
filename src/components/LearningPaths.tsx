@@ -4,7 +4,10 @@ import { levelStyles } from "@/lib/level-styles";
 
 export function LearningPaths() {
   return (
-    <section id="paths" className="border-t border-surface-border bg-surface/30 px-6 py-24">
+    <section
+      id="paths"
+      className="border-t border-surface-border bg-surface/30 px-6 py-24"
+    >
       <div className="mx-auto max-w-6xl">
         <div className="max-w-2xl">
           <p className="text-sm font-medium uppercase tracking-widest text-accent-soft">

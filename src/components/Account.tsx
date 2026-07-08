@@ -80,9 +80,7 @@ function GuestView() {
           <p className="mt-2 font-mono text-sm text-muted">
             {DEMO_CREDENTIALS.email} / {DEMO_CREDENTIALS.password}
           </p>
-          <p className="mt-2 text-xs text-muted">
-            Or try sam@learner.dev / demo456
-          </p>
+          <p className="mt-2 text-xs text-muted">Or try sam@learner.dev / demo456</p>
         </div>
       </div>
 
@@ -273,7 +271,8 @@ function SignedInView() {
       </div>
 
       <p className="text-xs text-muted">
-        Member since {new Date(user.joinedDate).toLocaleDateString("en-US", {
+        Member since{" "}
+        {new Date(user.joinedDate).toLocaleDateString("en-US", {
           month: "long",
           day: "numeric",
           year: "numeric",
