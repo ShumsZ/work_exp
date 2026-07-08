@@ -53,9 +53,7 @@ describe("Account", () => {
     await user.type(screen.getByLabelText(/password/i), "bad-password");
     await user.click(getSubmitButton()!);
 
-    expect(
-      await screen.findByText(/Invalid email or password/i),
-    ).toBeInTheDocument();
+    expect(await screen.findByText(/Invalid email or password/i)).toBeInTheDocument();
   });
 
   it("creates a new account", async () => {
