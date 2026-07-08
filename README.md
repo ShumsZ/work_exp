@@ -30,9 +30,19 @@ src/
 └── lib/content.ts    # Editable content — update copy and paths here
 ```
 
+## Learning path syllabi
+
+Each path card links to a syllabus preview page:
+
+| Path | URL |
+|------|-----|
+| Your First Program (Beginner) | `/paths/first-program` |
+| Build & Ship (Intermediate) | `/paths/build-and-ship` |
+| AI-Augmented Builder (Advanced) | `/paths/ai-builder` |
+
 ## Customize for your class
 
-1. Edit `src/lib/content.ts` to change pillars, learning paths, and principles
+1. Edit `src/lib/content.ts` to change pillars, learning paths, syllabi, and principles
 2. Add new routes under `src/app/` for lessons and labs
 3. Wire up GitHub Actions for CI (great for student assignments)
 

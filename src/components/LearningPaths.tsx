@@ -1,10 +1,6 @@
+import Link from "next/link";
 import { paths } from "@/lib/content";
-
-const levelStyles = {
-  Beginner: "bg-emerald-500/15 text-emerald-300 ring-emerald-500/30",
-  Intermediate: "bg-amber-500/15 text-amber-300 ring-amber-500/30",
-  Advanced: "bg-fuchsia-500/15 text-fuchsia-300 ring-fuchsia-500/30",
-} as const;
+import { levelStyles } from "@/lib/level-styles";
 
 export function LearningPaths() {
   return (
@@ -38,12 +34,12 @@ export function LearningPaths() {
               <p className="mt-4 flex-1 text-sm leading-relaxed text-muted">
                 {path.summary}
               </p>
-              <button
-                type="button"
-                className="mt-8 w-full rounded-xl border border-surface-border py-2.5 text-sm font-medium transition hover:border-accent/40 hover:bg-accent/10"
+              <Link
+                href={`/paths/${path.id}`}
+                className="mt-8 w-full rounded-xl border border-surface-border py-2.5 text-center text-sm font-medium transition hover:border-accent/40 hover:bg-accent/10"
               >
                 Preview syllabus
-              </button>
+              </Link>
             </article>
           ))}
         </div>
