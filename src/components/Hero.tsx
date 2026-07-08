@@ -10,7 +10,7 @@ export function Hero() {
       <div className="relative mx-auto max-w-6xl">
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-surface-border bg-surface px-4 py-1.5 text-sm text-muted">
           <span className="h-2 w-2 rounded-full bg-emerald-400" />
-          Open for learners everywhere
+          Contributor preview · shums/features branch
         </div>
 
         <h1 className="max-w-4xl text-4xl font-bold leading-[1.1] tracking-tight md:text-6xl md:leading-[1.05]">
