@@ -7,7 +7,7 @@
       "x": 0,
       "y": 0,
       "name": "Syllabus — Beginner",
-      "clip": true,
+      "clip": false,
       "width": 1280,
       "fill": "$bg",
       "layout": "vertical",
@@ -547,6 +547,239 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "frame",
+              "id": "op1",
+              "name": "Other paths",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "t3",
+                  "fill": "$accent",
+                  "content": "OTHER PATHS",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "r2",
+                  "width": "fill_container",
+                  "height": 145,
+                  "gap": 12,
+                  "alignItems": "start",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ca",
+                      "layout": "vertical",
+                      "width": "fill_container",
+                      "height": 145,
+                      "padding": 16,
+                      "gap": 8,
+                      "cornerRadius": 16,
+                      "fill": "#6366f11a",
+                      "stroke": "#6366f666",
+                      "strokeWidth": 1,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "s4",
+                          "height": 14,
+                          "width": "fill_container",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "t5",
+                              "fill": "$accent",
+                              "content": "YOU ARE HERE",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 10,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b6",
+                          "layout": "horizontal",
+                          "cornerRadius": 999,
+                          "fill": "$badge-beginner-bg",
+                          "stroke": "#10b9814d",
+                          "strokeWidth": 1,
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "t7",
+                              "fill": "$badge-beginner-text",
+                              "content": "Beginner",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "t8",
+                          "fill": "$text-primary",
+                          "content": "Your First Program",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "t9",
+                          "fill": "$text-muted",
+                          "content": "2 weeks",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cg",
+                      "layout": "vertical",
+                      "width": "fill_container",
+                      "height": 145,
+                      "padding": 16,
+                      "gap": 8,
+                      "cornerRadius": 16,
+                      "fill": "#ffffff06",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "sb",
+                          "height": 14,
+                          "width": "fill_container",
+                          "children": []
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bc",
+                          "layout": "horizontal",
+                          "cornerRadius": 999,
+                          "fill": "$badge-intermediate-bg",
+                          "stroke": "#f59e0b4d",
+                          "strokeWidth": 1,
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "td",
+                              "fill": "$badge-intermediate-text",
+                              "content": "Intermediate",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "te",
+                          "fill": "$text-primary",
+                          "content": "Build & Ship →",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tf",
+                          "fill": "$text-muted",
+                          "content": "4 weeks",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cm",
+                      "layout": "vertical",
+                      "width": "fill_container",
+                      "height": 145,
+                      "padding": 16,
+                      "gap": 8,
+                      "cornerRadius": 16,
+                      "fill": "#ffffff06",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "sh",
+                          "height": 14,
+                          "width": "fill_container",
+                          "children": []
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bi",
+                          "layout": "horizontal",
+                          "cornerRadius": 999,
+                          "fill": "$badge-advanced-bg",
+                          "stroke": "#d946ef4d",
+                          "strokeWidth": 1,
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "tj",
+                              "fill": "$badge-advanced-text",
+                              "content": "Advanced",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "tk",
+                          "fill": "$text-primary",
+                          "content": "AI-Augmented Builder →",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tl",
+                          "fill": "$text-muted",
+                          "content": "6 weeks",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -594,7 +827,7 @@
       "x": 1320,
       "y": 0,
       "name": "Syllabus — Intermediate",
-      "clip": true,
+      "clip": false,
       "width": 1280,
       "fill": "$bg",
       "layout": "vertical",
@@ -1134,6 +1367,239 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "frame",
+              "id": "opn",
+              "name": "Other paths",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tp",
+                  "fill": "$accent",
+                  "content": "OTHER PATHS",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "ro",
+                  "width": "fill_container",
+                  "height": 145,
+                  "gap": 12,
+                  "alignItems": "start",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "cv",
+                      "layout": "vertical",
+                      "width": "fill_container",
+                      "height": 145,
+                      "padding": 16,
+                      "gap": 8,
+                      "cornerRadius": 16,
+                      "fill": "#ffffff06",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "sq",
+                          "height": 14,
+                          "width": "fill_container",
+                          "children": []
+                        },
+                        {
+                          "type": "frame",
+                          "id": "br",
+                          "layout": "horizontal",
+                          "cornerRadius": 999,
+                          "fill": "$badge-beginner-bg",
+                          "stroke": "#10b9814d",
+                          "strokeWidth": 1,
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ts",
+                              "fill": "$badge-beginner-text",
+                              "content": "Beginner",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "tt",
+                          "fill": "$text-primary",
+                          "content": "← Your First Program",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tu",
+                          "fill": "$text-muted",
+                          "content": "2 weeks",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c12",
+                      "layout": "vertical",
+                      "width": "fill_container",
+                      "height": 145,
+                      "padding": 16,
+                      "gap": 8,
+                      "cornerRadius": 16,
+                      "fill": "#6366f11a",
+                      "stroke": "#6366f666",
+                      "strokeWidth": 1,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "sw",
+                          "height": 14,
+                          "width": "fill_container",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "tx",
+                              "fill": "$accent",
+                              "content": "YOU ARE HERE",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 10,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "by",
+                          "layout": "horizontal",
+                          "cornerRadius": 999,
+                          "fill": "$badge-intermediate-bg",
+                          "stroke": "#f59e0b4d",
+                          "strokeWidth": 1,
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "tz",
+                              "fill": "$badge-intermediate-text",
+                              "content": "Intermediate",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "t10",
+                          "fill": "$text-primary",
+                          "content": "Build & Ship",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "t11",
+                          "fill": "$text-muted",
+                          "content": "4 weeks",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c18",
+                      "layout": "vertical",
+                      "width": "fill_container",
+                      "height": 145,
+                      "padding": 16,
+                      "gap": 8,
+                      "cornerRadius": 16,
+                      "fill": "#ffffff06",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "s13",
+                          "height": 14,
+                          "width": "fill_container",
+                          "children": []
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b14",
+                          "layout": "horizontal",
+                          "cornerRadius": 999,
+                          "fill": "$badge-advanced-bg",
+                          "stroke": "#d946ef4d",
+                          "strokeWidth": 1,
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "t15",
+                              "fill": "$badge-advanced-text",
+                              "content": "Advanced",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "t16",
+                          "fill": "$text-primary",
+                          "content": "AI-Augmented Builder →",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "t17",
+                          "fill": "$text-muted",
+                          "content": "6 weeks",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -1181,7 +1647,7 @@
       "x": 2640,
       "y": 0,
       "name": "Syllabus — Advanced",
-      "clip": true,
+      "clip": false,
       "width": 1280,
       "fill": "$bg",
       "layout": "vertical",
@@ -1714,6 +2180,239 @@
                           "lineHeight": 1.5,
                           "fontFamily": "Geist",
                           "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "op19",
+              "name": "Other paths",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "t1b",
+                  "fill": "$accent",
+                  "content": "OTHER PATHS",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "r1a",
+                  "width": "fill_container",
+                  "height": 145,
+                  "gap": 12,
+                  "alignItems": "start",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "c1h",
+                      "layout": "vertical",
+                      "width": "fill_container",
+                      "height": 145,
+                      "padding": 16,
+                      "gap": 8,
+                      "cornerRadius": 16,
+                      "fill": "#ffffff06",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "s1c",
+                          "height": 14,
+                          "width": "fill_container",
+                          "children": []
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b1d",
+                          "layout": "horizontal",
+                          "cornerRadius": 999,
+                          "fill": "$badge-beginner-bg",
+                          "stroke": "#10b9814d",
+                          "strokeWidth": 1,
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "t1e",
+                              "fill": "$badge-beginner-text",
+                              "content": "Beginner",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "t1f",
+                          "fill": "$text-primary",
+                          "content": "← Your First Program",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "t1g",
+                          "fill": "$text-muted",
+                          "content": "2 weeks",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c1n",
+                      "layout": "vertical",
+                      "width": "fill_container",
+                      "height": 145,
+                      "padding": 16,
+                      "gap": 8,
+                      "cornerRadius": 16,
+                      "fill": "#ffffff06",
+                      "stroke": "$border",
+                      "strokeWidth": 1,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "s1i",
+                          "height": 14,
+                          "width": "fill_container",
+                          "children": []
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b1j",
+                          "layout": "horizontal",
+                          "cornerRadius": 999,
+                          "fill": "$badge-intermediate-bg",
+                          "stroke": "#f59e0b4d",
+                          "strokeWidth": 1,
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "t1k",
+                              "fill": "$badge-intermediate-text",
+                              "content": "Intermediate",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "t1l",
+                          "fill": "$text-primary",
+                          "content": "← Build & Ship",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "t1m",
+                          "fill": "$text-muted",
+                          "content": "4 weeks",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c1u",
+                      "layout": "vertical",
+                      "width": "fill_container",
+                      "height": 145,
+                      "padding": 16,
+                      "gap": 8,
+                      "cornerRadius": 16,
+                      "fill": "#6366f11a",
+                      "stroke": "#6366f666",
+                      "strokeWidth": 1,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "s1o",
+                          "height": 14,
+                          "width": "fill_container",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "t1p",
+                              "fill": "$accent",
+                              "content": "YOU ARE HERE",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 10,
+                              "fontWeight": "500",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b1q",
+                          "layout": "horizontal",
+                          "cornerRadius": 999,
+                          "fill": "$badge-advanced-bg",
+                          "stroke": "#d946ef4d",
+                          "strokeWidth": 1,
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "t1r",
+                              "fill": "$badge-advanced-text",
+                              "content": "Advanced",
+                              "fontFamily": "Geist",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "t1s",
+                          "fill": "$text-primary",
+                          "content": "AI-Augmented Builder",
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "t1t",
+                          "fill": "$text-muted",
+                          "content": "6 weeks",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
                           "fontWeight": "normal"
                         }
                       ]
