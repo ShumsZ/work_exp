@@ -208,6 +208,13 @@ export const principles: Principle[] = [
   },
 ];
 
+export const accountSection = {
+  eyebrow: "Your account",
+  heading: "Track your learning journey",
+  description:
+    "Create an account to save your progress, bookmark paths, and pick up right where you left off.",
+};
+
 export const stats = [
   { label: "Core concepts", value: "40+" },
   { label: "Hands-on labs", value: "12" },
