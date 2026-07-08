@@ -8,9 +8,14 @@ export function Hero() {
       <div className="pointer-events-none absolute left-1/2 top-0 h-[480px] w-[480px] -translate-x-1/2 rounded-full bg-accent/20 blur-[120px] animate-pulse-glow" />
 
       <div className="relative mx-auto max-w-6xl">
-        <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-surface-border bg-surface px-4 py-1.5 text-sm text-muted">
-          <span className="h-2 w-2 rounded-full bg-emerald-400" />
-          Open for learners everywhere
+        <div className="mb-6 flex flex-wrap items-center gap-3">
+          <div className="inline-flex items-center gap-2 rounded-full border border-surface-border bg-surface px-4 py-1.5 text-sm text-muted">
+            <span className="h-2 w-2 rounded-full bg-emerald-400" />
+            Contributor preview
+          </div>
+          <div className="inline-flex items-center rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-sm font-medium text-accent-soft">
+            shums/features branch
+          </div>
         </div>
 
         <h1 className="max-w-4xl text-4xl font-bold leading-[1.1] tracking-tight md:text-6xl md:leading-[1.05]">
@@ -26,6 +31,19 @@ export function Hero() {
           practical craft, and AI becomes a thoughtful partner in how you build.
         </p>
 
+        <div
+          id="contributor"
+          className="mt-8 max-w-2xl rounded-2xl border border-surface-border bg-surface/80 p-5 backdrop-blur-sm"
+        >
+          <p className="text-sm font-semibold text-foreground">Building on a personal branch</p>
+          <p className="mt-2 text-sm leading-relaxed text-muted">
+            This preview keeps contributor experiments separate from the shared class site on{" "}
+            <code className="rounded bg-background px-1.5 py-0.5 text-accent-soft">main</code>.
+            New header navigation, branch labels, and hero callouts help teammates spot preview
+            work before it merges.
+          </p>
+        </div>
+
         <div className="mt-10 flex flex-wrap gap-4">
           <Link
             href="#paths"
@@ -38,6 +56,12 @@ export function Hero() {
             className="rounded-full border border-surface-border bg-surface px-6 py-3 text-sm font-semibold transition hover:border-accent/40 hover:bg-accent/10"
           >
             See what you&apos;ll learn
+          </Link>
+          <Link
+            href="#contributor"
+            className="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-6 py-3 text-sm font-semibold text-emerald-300 transition hover:border-emerald-400/50 hover:bg-emerald-500/20"
+          >
+            About this branch
           </Link>
         </div>
 

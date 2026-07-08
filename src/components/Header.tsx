@@ -15,17 +15,22 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-surface-border bg-background/80 backdrop-blur-md">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link href="/" className="group flex items-center gap-2">
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent/20 text-lg text-accent-soft ring-1 ring-accent/30 transition group-hover:bg-accent/30">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-4">
+        <Link href="/" className="group flex min-w-0 items-center gap-3">
+          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-accent/20 text-lg text-accent-soft ring-1 ring-accent/30 transition group-hover:bg-accent/30">
             λ
           </span>
-          <span className="font-semibold tracking-tight">
-            Compute<span className="text-accent-soft">Beauty</span>
+          <span className="min-w-0">
+            <span className="block font-semibold tracking-tight">
+              Compute<span className="text-accent-soft">Beauty</span>
+            </span>
+            <span className="block truncate text-xs text-muted">
+              Contributor workspace · shums/features
+            </span>
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-8 lg:flex">
           {navLinks.map((link) => (
             <a
               key={link.href}
