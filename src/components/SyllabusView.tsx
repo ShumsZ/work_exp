@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { PathCrossLinks } from "@/components/PathCrossLinks";
 import type { LearningPath } from "@/lib/content";
 import { levelStyles } from "@/lib/level-styles";
 
@@ -83,6 +84,8 @@ export function SyllabusView({ path }: SyllabusViewProps) {
             ))}
           </div>
         </section>
+
+        <PathCrossLinks currentPathId={path.id} />
       </div>
     </main>
   );
