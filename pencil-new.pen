@@ -1,0 +1,1813 @@
+{
+  "version": "2.14",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Tmnad",
+      "x": 0,
+      "y": 0,
+      "name": "Syllabus — Beginner",
+      "clip": true,
+      "width": 1280,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Tx541",
+          "name": "Header",
+          "width": "fill_container",
+          "stroke": "$border",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "padding": [
+            16,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "V5aGk",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "p32x5",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "#6366f133",
+                  "cornerRadius": 8,
+                  "stroke": "#6366f14d",
+                  "strokeWidth": 1
+                },
+                {
+                  "type": "text",
+                  "id": "TCR2T",
+                  "fill": "$text-primary",
+                  "content": "ComputeBeauty",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JrI17",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Lz4uQ",
+                  "fill": "$text-muted",
+                  "content": "Explore",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "PR9uT",
+                  "fill": "$text-muted",
+                  "content": "Paths",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wR98J",
+                  "fill": "$text-muted",
+                  "content": "Philosophy",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AiYzN",
+              "fill": "$accent",
+              "cornerRadius": 999,
+              "padding": [
+                8,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JqHa9",
+                  "fill": "#ffffff",
+                  "content": "Start learning",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NnCnG",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            48,
+            64,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "OMuZs",
+              "fill": "$text-muted",
+              "content": "← All paths",
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "Z8BlEc",
+              "name": "Hero",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SACUa",
+                  "fill": "$badge-beginner-bg",
+                  "cornerRadius": 999,
+                  "stroke": "#10b9814d",
+                  "strokeWidth": 1,
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JwgyY",
+                      "fill": "$badge-beginner-text",
+                      "content": "Beginner",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "RZg60",
+                  "fill": "$text-primary",
+                  "content": "Your First Program",
+                  "fontFamily": "Geist",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "D3w37P",
+                  "fill": "$text-muted",
+                  "content": "2 weeks",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "vcB79",
+                  "fill": "$text-muted",
+                  "content": "Write code that solves real problems, read errors without fear, and understand what happens when you press Run.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "BCxXB",
+              "name": "Overview",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BOxPh",
+                  "fill": "$accent",
+                  "content": "OVERVIEW",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "L4Ax1l",
+                  "fill": "$text-muted",
+                  "content": "A gentle introduction to programming. You will learn by writing small programs, reading error messages, and building confidence one run at a time.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RptR9",
+              "name": "Prerequisites",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MkMB4",
+                  "fill": "$accent",
+                  "content": "PREREQUISITES",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "NDYJG",
+                  "fill": "$text-muted",
+                  "content": "• No prior coding experience required\n• A computer with internet access\n• Curiosity and patience",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iN3fY",
+              "name": "Modules",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kZ3bK",
+                  "fill": "$accent",
+                  "content": "MODULES",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "y9YPKL",
+                  "width": "fill_container",
+                  "fill": "#ffffff06",
+                  "cornerRadius": 16,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "F4b2F4",
+                      "fill": "#ffffff14",
+                      "content": "01",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Hunda",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NeOJ0",
+                          "fill": "$text-primary",
+                          "content": "Hello, Code",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dUeFT",
+                          "fill": "$text-muted",
+                          "content": "Week 1 · 3 days",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UCrfJ",
+                          "fill": "$text-muted",
+                          "content": "Variables · Output · Running programs",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EbdLi",
+                          "fill": "$text-primary",
+                          "content": "Outcome: Write and run your first program that produces output.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eGzqt",
+                  "width": "fill_container",
+                  "fill": "#ffffff06",
+                  "cornerRadius": 16,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZuYb5",
+                      "fill": "#ffffff14",
+                      "content": "02",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "q0Iki",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "oRzS4",
+                          "fill": "$text-primary",
+                          "content": "Logic & Loops",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "E96GkG",
+                          "fill": "$text-muted",
+                          "content": "Week 1 · 4 days",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "h6MLv",
+                          "fill": "$text-muted",
+                          "content": "Conditionals · Iteration · Boolean logic",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Qtrsi",
+                          "fill": "$text-primary",
+                          "content": "Outcome: Solve problems using if/else and loops.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MhzGH",
+                  "width": "fill_container",
+                  "fill": "#ffffff06",
+                  "cornerRadius": 16,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AUjJH",
+                      "fill": "#ffffff14",
+                      "content": "03",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "axoB4",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GBmBS",
+                          "fill": "$text-primary",
+                          "content": "Functions & Errors",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "M0xXAo",
+                          "fill": "$text-muted",
+                          "content": "Week 2 · 3 days",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "h6Ngno",
+                          "fill": "$text-muted",
+                          "content": "Functions · Stack traces · Debugging basics",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vapTW",
+                          "fill": "$text-primary",
+                          "content": "Outcome: Read errors without fear and reuse code with functions.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Bv483",
+                  "width": "fill_container",
+                  "fill": "#ffffff06",
+                  "cornerRadius": 16,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HLEmb",
+                      "fill": "#ffffff14",
+                      "content": "04",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "j091a4",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "U278NP",
+                          "fill": "$text-primary",
+                          "content": "Mini Project",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "dcwBN",
+                          "fill": "$text-muted",
+                          "content": "Week 2 · 4 days",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZlK6O",
+                          "fill": "$text-muted",
+                          "content": "CLI · Problem solving · Putting it together",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "o6VoS",
+                          "fill": "$text-primary",
+                          "content": "Outcome: Ship a small command-line program you can show off.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "d6LWJ6",
+          "name": "Footer",
+          "width": "fill_container",
+          "stroke": "$border",
+          "strokeWidth": {
+            "top": 1
+          },
+          "padding": [
+            24,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "P854j",
+              "fill": "$text-muted",
+              "content": "ComputeBeauty — learn software engineering with wonder.",
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "X5rfDT",
+              "fill": "$text-muted",
+              "content": "Built with Next.js",
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "rASIV",
+      "x": 1320,
+      "y": 0,
+      "name": "Syllabus — Intermediate",
+      "clip": true,
+      "width": 1280,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "C3EQ3M",
+          "name": "Header",
+          "width": "fill_container",
+          "stroke": "$border",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "padding": [
+            16,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "U50n0",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "X6NNAO",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "#6366f133",
+                  "cornerRadius": 8,
+                  "stroke": "#6366f14d",
+                  "strokeWidth": 1
+                },
+                {
+                  "type": "text",
+                  "id": "PdM54",
+                  "fill": "$text-primary",
+                  "content": "ComputeBeauty",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dgX3k",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UQyAV",
+                  "fill": "$text-muted",
+                  "content": "Explore",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "r20Yp",
+                  "fill": "$text-muted",
+                  "content": "Paths",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "SSy05",
+                  "fill": "$text-muted",
+                  "content": "Philosophy",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bHFtU",
+              "fill": "$accent",
+              "cornerRadius": 999,
+              "padding": [
+                8,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "K1SBjh",
+                  "fill": "#ffffff",
+                  "content": "Start learning",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A7giqP",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            48,
+            64,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "e5rcx3",
+              "fill": "$text-muted",
+              "content": "← All paths",
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "cmrUH",
+              "name": "Hero",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uj7qH",
+                  "fill": "$badge-intermediate-bg",
+                  "cornerRadius": 999,
+                  "stroke": "#f59e0b4d",
+                  "strokeWidth": 1,
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mBZlH",
+                      "fill": "$badge-intermediate-text",
+                      "content": "Intermediate",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "DmolK",
+                  "fill": "$text-primary",
+                  "content": "Build & Ship",
+                  "fontFamily": "Geist",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "k86pst",
+                  "fill": "$text-muted",
+                  "content": "4 weeks",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "cB788",
+                  "fill": "$text-muted",
+                  "content": "Design a small app, write tests, open pull requests, and deploy with GitHub Actions—just like professional teams.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SIIhc",
+              "name": "Overview",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HmW8X",
+                  "fill": "$accent",
+                  "content": "OVERVIEW",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "ayMyN",
+                  "fill": "$text-muted",
+                  "content": "Move from solo coding to team-ready engineering. You will design, test, collaborate, and ship a real application using industry workflows.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SaX1g",
+              "name": "Prerequisites",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "W8oyn",
+                  "fill": "$accent",
+                  "content": "PREREQUISITES",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "hOgxR",
+                  "fill": "$text-muted",
+                  "content": "• Comfortable writing basic programs\n• Familiar with variables, functions, and loops\n• GitHub account recommended",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gIiqS",
+              "name": "Modules",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Hbmen",
+                  "fill": "$accent",
+                  "content": "MODULES",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "w4Ebk",
+                  "width": "fill_container",
+                  "fill": "#ffffff06",
+                  "cornerRadius": 16,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "j3wbPv",
+                      "fill": "#ffffff14",
+                      "content": "01",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "x4XzO",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xmrIm",
+                          "fill": "$text-primary",
+                          "content": "Design a Small App",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "y6aDT",
+                          "fill": "$text-muted",
+                          "content": "Week 1 · 5 days",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WHh49",
+                          "fill": "$text-muted",
+                          "content": "Requirements · Architecture · Project structure",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "e6nrLS",
+                          "fill": "$text-primary",
+                          "content": "Outcome: Plan and scaffold a small app with clear boundaries.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Mi5bu",
+                  "width": "fill_container",
+                  "fill": "#ffffff06",
+                  "cornerRadius": 16,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oatSJ",
+                      "fill": "#ffffff14",
+                      "content": "02",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OE6NV",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "P8k7zz",
+                          "fill": "$text-primary",
+                          "content": "Tests First",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "omSJT",
+                          "fill": "$text-muted",
+                          "content": "Week 2 · 5 days",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mQYsa",
+                          "fill": "$text-muted",
+                          "content": "Unit tests · TDD · Assertions",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "I6Tfm6",
+                          "fill": "$text-primary",
+                          "content": "Outcome: Write tests that give you confidence to refactor.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IEWt7",
+                  "width": "fill_container",
+                  "fill": "#ffffff06",
+                  "cornerRadius": 16,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vSav4",
+                      "fill": "#ffffff14",
+                      "content": "03",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u2kTTV",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Q8RsL",
+                          "fill": "$text-primary",
+                          "content": "Git & Pull Requests",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "vcxgp",
+                          "fill": "$text-muted",
+                          "content": "Week 3 · 5 days",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Dlnk1",
+                          "fill": "$text-muted",
+                          "content": "Branches · Code review · CI basics",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aqfbs",
+                          "fill": "$text-primary",
+                          "content": "Outcome: Open a PR and respond to review feedback.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ThmE6",
+                  "width": "fill_container",
+                  "fill": "#ffffff06",
+                  "cornerRadius": 16,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "S56f3T",
+                      "fill": "#ffffff14",
+                      "content": "04",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wY8g7",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lpj6e",
+                          "fill": "$text-primary",
+                          "content": "Deploy",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MI4uc",
+                          "fill": "$text-muted",
+                          "content": "Week 4 · 5 days",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ihwf3",
+                          "fill": "$text-muted",
+                          "content": "GitHub Actions · Production checklist · Monitoring",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nrJrA",
+                          "fill": "$text-primary",
+                          "content": "Outcome: Ship your app with automated CI/CD.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "y58NCD",
+          "name": "Footer",
+          "width": "fill_container",
+          "stroke": "$border",
+          "strokeWidth": {
+            "top": 1
+          },
+          "padding": [
+            24,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "t4L5p",
+              "fill": "$text-muted",
+              "content": "ComputeBeauty — learn software engineering with wonder.",
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "UoDXZ",
+              "fill": "$text-muted",
+              "content": "Built with Next.js",
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "VlgvP",
+      "x": 2640,
+      "y": 0,
+      "name": "Syllabus — Advanced",
+      "clip": true,
+      "width": 1280,
+      "fill": "$bg",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ko7Q9",
+          "name": "Header",
+          "width": "fill_container",
+          "stroke": "$border",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "padding": [
+            16,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "qishf",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jkdNI",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "#6366f133",
+                  "cornerRadius": 8,
+                  "stroke": "#6366f14d",
+                  "strokeWidth": 1
+                },
+                {
+                  "type": "text",
+                  "id": "DtNpU",
+                  "fill": "$text-primary",
+                  "content": "ComputeBeauty",
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UxE4h",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FhYph",
+                  "fill": "$text-muted",
+                  "content": "Explore",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "M9MdUP",
+                  "fill": "$text-muted",
+                  "content": "Paths",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "o9atVu",
+                  "fill": "$text-muted",
+                  "content": "Philosophy",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "yPRT5",
+              "fill": "$accent",
+              "cornerRadius": 999,
+              "padding": [
+                8,
+                16
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NQxMt",
+                  "fill": "#ffffff",
+                  "content": "Start learning",
+                  "fontFamily": "Geist",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A5Jb4",
+          "name": "Content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            48,
+            64,
+            48
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "YBSmJ",
+              "fill": "$text-muted",
+              "content": "← All paths",
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "PESqW",
+              "name": "Hero",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aBEJ0",
+                  "fill": "$badge-advanced-bg",
+                  "cornerRadius": 999,
+                  "stroke": "#d946ef4d",
+                  "strokeWidth": 1,
+                  "padding": [
+                    4,
+                    12
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OzICz",
+                      "fill": "$badge-advanced-text",
+                      "content": "Advanced",
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "OCa5H",
+                  "fill": "$text-primary",
+                  "content": "AI-Augmented Builder",
+                  "fontFamily": "Geist",
+                  "fontSize": 40,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "WhigB",
+                  "fill": "$text-muted",
+                  "content": "6 weeks",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "m9I6gs",
+                  "fill": "$text-muted",
+                  "content": "Combine solid engineering with AI tools: evaluate outputs, design guardrails, and ship features that are fast and trustworthy.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Geist",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aa42z",
+              "name": "Overview",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RKDxM",
+                  "fill": "$accent",
+                  "content": "OVERVIEW",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "uoJLY",
+                  "fill": "$text-muted",
+                  "content": "Learn to use AI as a force multiplier without sacrificing engineering discipline. You will evaluate model outputs, design guardrails, and ship production-quality features.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Sm7pb",
+              "name": "Prerequisites",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RU3i6",
+                  "fill": "$accent",
+                  "content": "PREREQUISITES",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "RjkzP",
+                  "fill": "$text-muted",
+                  "content": "• Completed an intermediate project with tests and CI\n• Comfortable with Git workflows\n• Open to experimenting with AI coding tools",
+                  "lineHeight": 1.8,
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Qk6hu",
+              "name": "Modules",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FD1XP",
+                  "fill": "$accent",
+                  "content": "MODULES",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "frame",
+                  "id": "lYopc",
+                  "width": "fill_container",
+                  "fill": "#ffffff06",
+                  "cornerRadius": 16,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KMvUW",
+                      "fill": "#ffffff14",
+                      "content": "01",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "E1tKdM",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kFJt2",
+                          "fill": "$text-primary",
+                          "content": "Solid Foundations",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Y8hzf",
+                          "fill": "$text-muted",
+                          "content": "Week 1-2 · 6 days",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "LLgbd",
+                          "fill": "$text-muted",
+                          "content": "Architecture · Guardrails · Code quality",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wfSu8",
+                          "fill": "$text-primary",
+                          "content": "Outcome: Establish engineering patterns before adding AI to the mix.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "K6nD8",
+                  "width": "fill_container",
+                  "fill": "#ffffff06",
+                  "cornerRadius": 16,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RkwaF",
+                      "fill": "#ffffff14",
+                      "content": "02",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uXmuE",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GJf1Q",
+                          "fill": "$text-primary",
+                          "content": "AI-Assisted Development",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hEelM",
+                          "fill": "$text-muted",
+                          "content": "Week 3-4 · 8 days",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Vmv66",
+                          "fill": "$text-muted",
+                          "content": "Prompts · Code generation · Output evaluation",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "jnUwh",
+                          "fill": "$text-primary",
+                          "content": "Outcome: Use AI tools effectively while verifying every output.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nn3ym",
+                  "width": "fill_container",
+                  "fill": "#ffffff06",
+                  "cornerRadius": 16,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "l6z1rA",
+                      "fill": "#ffffff14",
+                      "content": "03",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "E3PYtc",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kdt2h",
+                          "fill": "$text-primary",
+                          "content": "Responsible AI",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "aw8Bh",
+                          "fill": "$text-muted",
+                          "content": "Week 5 · 5 days",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pHIQS",
+                          "fill": "$text-muted",
+                          "content": "Hallucinations · Privacy · Verification",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ejuix",
+                          "fill": "$text-primary",
+                          "content": "Outcome: Design guardrails that keep AI-assisted code trustworthy.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KFtBo",
+                  "width": "fill_container",
+                  "fill": "#ffffff06",
+                  "cornerRadius": 16,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ffh2k",
+                      "fill": "#ffffff14",
+                      "content": "04",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 32,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pzXww",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wOr2q",
+                          "fill": "$text-primary",
+                          "content": "Capstone",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wUfxN",
+                          "fill": "$text-muted",
+                          "content": "Week 6 · 7 days",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WD10u",
+                          "fill": "$text-muted",
+                          "content": "Full-stack feature · AI + engineering · Ship it",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nQ9mq",
+                          "fill": "$text-primary",
+                          "content": "Outcome: Ship a production feature combining AI tools and solid engineering.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "Geist",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zaEXx",
+          "name": "Footer",
+          "width": "fill_container",
+          "stroke": "$border",
+          "strokeWidth": {
+            "top": 1
+          },
+          "padding": [
+            24,
+            48
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "SdZYR",
+              "fill": "$text-muted",
+              "content": "ComputeBeauty — learn software engineering with wonder.",
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "RDn67",
+              "fill": "$text-muted",
+              "content": "Built with Next.js",
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": "#06080f"
+    },
+    "text-primary": {
+      "type": "color",
+      "value": "#eef2ff"
+    },
+    "text-muted": {
+      "type": "color",
+      "value": "#94a3b8"
+    },
+    "accent": {
+      "type": "color",
+      "value": "#6366f1"
+    },
+    "border": {
+      "type": "color",
+      "value": "#ffffff14"
+    },
+    "badge-beginner-bg": {
+      "type": "color",
+      "value": "#10b98126"
+    },
+    "badge-beginner-text": {
+      "type": "color",
+      "value": "#6ee7b7"
+    },
+    "badge-intermediate-bg": {
+      "type": "color",
+      "value": "#f59e0b26"
+    },
+    "badge-intermediate-text": {
+      "type": "color",
+      "value": "#fcd34d"
+    },
+    "badge-advanced-bg": {
+      "type": "color",
+      "value": "#d946ef26"
+    },
+    "badge-advanced-text": {
+      "type": "color",
+      "value": "#e879f9"
+    }
+  },
+  "fileToken": "a9e3988c-31c5-43b6-89e7-4927b0ce0483"
+}
