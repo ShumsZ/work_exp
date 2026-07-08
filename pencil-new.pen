@@ -7,7 +7,6 @@
       "x": 0,
       "y": 0,
       "name": "Syllabus — Beginner",
-      "clip": false,
       "width": 1280,
       "fill": "$bg",
       "layout": "vertical",
@@ -550,7 +549,7 @@
             },
             {
               "type": "frame",
-              "id": "op1",
+              "id": "F0GH89",
               "name": "Other paths",
               "width": "fill_container",
               "layout": "vertical",
@@ -558,7 +557,7 @@
               "children": [
                 {
                   "type": "text",
-                  "id": "t3",
+                  "id": "cA7LY",
                   "fill": "$accent",
                   "content": "OTHER PATHS",
                   "fontFamily": "Geist Mono",
@@ -568,34 +567,33 @@
                 },
                 {
                   "type": "frame",
-                  "id": "r2",
+                  "id": "jcSZF",
                   "width": "fill_container",
                   "height": 145,
                   "gap": 12,
-                  "alignItems": "start",
                   "children": [
                     {
                       "type": "frame",
-                      "id": "ca",
-                      "layout": "vertical",
+                      "id": "y9kie",
                       "width": "fill_container",
                       "height": 145,
-                      "padding": 16,
-                      "gap": 8,
-                      "cornerRadius": 16,
                       "fill": "#6366f11a",
+                      "cornerRadius": 16,
                       "stroke": "#6366f666",
                       "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "s4",
-                          "height": 14,
+                          "id": "iOZl6",
                           "width": "fill_container",
+                          "height": 14,
                           "children": [
                             {
                               "type": "text",
-                              "id": "t5",
+                              "id": "spNAF",
                               "fill": "$accent",
                               "content": "YOU ARE HERE",
                               "fontFamily": "Geist Mono",
@@ -607,10 +605,9 @@
                         },
                         {
                           "type": "frame",
-                          "id": "b6",
-                          "layout": "horizontal",
-                          "cornerRadius": 999,
+                          "id": "babOV",
                           "fill": "$badge-beginner-bg",
+                          "cornerRadius": 999,
                           "stroke": "#10b9814d",
                           "strokeWidth": 1,
                           "padding": [
@@ -620,7 +617,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "t7",
+                              "id": "k3wSb",
                               "fill": "$badge-beginner-text",
                               "content": "Beginner",
                               "fontFamily": "Geist",
@@ -631,7 +628,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "t8",
+                          "id": "Lsi8w",
                           "fill": "$text-primary",
                           "content": "Your First Program",
                           "fontFamily": "Geist",
@@ -640,7 +637,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "t9",
+                          "id": "gcvsV",
                           "fill": "$text-muted",
                           "content": "2 weeks",
                           "fontFamily": "Geist Mono",
@@ -651,30 +648,28 @@
                     },
                     {
                       "type": "frame",
-                      "id": "cg",
-                      "layout": "vertical",
+                      "id": "AZLiq",
                       "width": "fill_container",
                       "height": 145,
-                      "padding": 16,
-                      "gap": 8,
-                      "cornerRadius": 16,
                       "fill": "#ffffff06",
+                      "cornerRadius": 16,
                       "stroke": "$border",
                       "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "sb",
-                          "height": 14,
+                          "id": "yTEy2",
                           "width": "fill_container",
-                          "children": []
+                          "height": 14
                         },
                         {
                           "type": "frame",
-                          "id": "bc",
-                          "layout": "horizontal",
-                          "cornerRadius": 999,
+                          "id": "iJGBS",
                           "fill": "$badge-intermediate-bg",
+                          "cornerRadius": 999,
                           "stroke": "#f59e0b4d",
                           "strokeWidth": 1,
                           "padding": [
@@ -684,7 +679,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "td",
+                              "id": "vp9e8",
                               "fill": "$badge-intermediate-text",
                               "content": "Intermediate",
                               "fontFamily": "Geist",
@@ -695,7 +690,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "te",
+                          "id": "XOGVM",
                           "fill": "$text-primary",
                           "content": "Build & Ship →",
                           "fontFamily": "Geist",
@@ -704,7 +699,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "tf",
+                          "id": "EEe3U",
                           "fill": "$text-muted",
                           "content": "4 weeks",
                           "fontFamily": "Geist Mono",
@@ -715,30 +710,28 @@
                     },
                     {
                       "type": "frame",
-                      "id": "cm",
-                      "layout": "vertical",
+                      "id": "Ccjoz",
                       "width": "fill_container",
                       "height": 145,
-                      "padding": 16,
-                      "gap": 8,
-                      "cornerRadius": 16,
                       "fill": "#ffffff06",
+                      "cornerRadius": 16,
                       "stroke": "$border",
                       "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "sh",
-                          "height": 14,
+                          "id": "EUeMc",
                           "width": "fill_container",
-                          "children": []
+                          "height": 14
                         },
                         {
                           "type": "frame",
-                          "id": "bi",
-                          "layout": "horizontal",
-                          "cornerRadius": 999,
+                          "id": "qibjd",
                           "fill": "$badge-advanced-bg",
+                          "cornerRadius": 999,
                           "stroke": "#d946ef4d",
                           "strokeWidth": 1,
                           "padding": [
@@ -748,7 +741,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "tj",
+                              "id": "I6HYXp",
                               "fill": "$badge-advanced-text",
                               "content": "Advanced",
                               "fontFamily": "Geist",
@@ -759,7 +752,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "tk",
+                          "id": "x1cWQ",
                           "fill": "$text-primary",
                           "content": "AI-Augmented Builder →",
                           "fontFamily": "Geist",
@@ -768,7 +761,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "tl",
+                          "id": "w8v3xK",
                           "fill": "$text-muted",
                           "content": "6 weeks",
                           "fontFamily": "Geist Mono",
@@ -827,7 +820,6 @@
       "x": 1320,
       "y": 0,
       "name": "Syllabus — Intermediate",
-      "clip": false,
       "width": 1280,
       "fill": "$bg",
       "layout": "vertical",
@@ -1370,7 +1362,7 @@
             },
             {
               "type": "frame",
-              "id": "opn",
+              "id": "W1PZ4",
               "name": "Other paths",
               "width": "fill_container",
               "layout": "vertical",
@@ -1378,7 +1370,7 @@
               "children": [
                 {
                   "type": "text",
-                  "id": "tp",
+                  "id": "LFAvL",
                   "fill": "$accent",
                   "content": "OTHER PATHS",
                   "fontFamily": "Geist Mono",
@@ -1388,38 +1380,35 @@
                 },
                 {
                   "type": "frame",
-                  "id": "ro",
+                  "id": "s2x9M",
                   "width": "fill_container",
                   "height": 145,
                   "gap": 12,
-                  "alignItems": "start",
                   "children": [
                     {
                       "type": "frame",
-                      "id": "cv",
-                      "layout": "vertical",
+                      "id": "iqTCw",
                       "width": "fill_container",
                       "height": 145,
-                      "padding": 16,
-                      "gap": 8,
-                      "cornerRadius": 16,
                       "fill": "#ffffff06",
+                      "cornerRadius": 16,
                       "stroke": "$border",
                       "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "sq",
-                          "height": 14,
+                          "id": "eSjyG",
                           "width": "fill_container",
-                          "children": []
+                          "height": 14
                         },
                         {
                           "type": "frame",
-                          "id": "br",
-                          "layout": "horizontal",
-                          "cornerRadius": 999,
+                          "id": "FC29X",
                           "fill": "$badge-beginner-bg",
+                          "cornerRadius": 999,
                           "stroke": "#10b9814d",
                           "strokeWidth": 1,
                           "padding": [
@@ -1429,7 +1418,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "ts",
+                              "id": "UCczR",
                               "fill": "$badge-beginner-text",
                               "content": "Beginner",
                               "fontFamily": "Geist",
@@ -1440,7 +1429,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "tt",
+                          "id": "Lm7Fj",
                           "fill": "$text-primary",
                           "content": "← Your First Program",
                           "fontFamily": "Geist",
@@ -1449,7 +1438,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "tu",
+                          "id": "EkRJT",
                           "fill": "$text-muted",
                           "content": "2 weeks",
                           "fontFamily": "Geist Mono",
@@ -1460,26 +1449,26 @@
                     },
                     {
                       "type": "frame",
-                      "id": "c12",
-                      "layout": "vertical",
+                      "id": "tAb6D",
                       "width": "fill_container",
                       "height": 145,
-                      "padding": 16,
-                      "gap": 8,
-                      "cornerRadius": 16,
                       "fill": "#6366f11a",
+                      "cornerRadius": 16,
                       "stroke": "#6366f666",
                       "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "sw",
-                          "height": 14,
+                          "id": "KAvlY",
                           "width": "fill_container",
+                          "height": 14,
                           "children": [
                             {
                               "type": "text",
-                              "id": "tx",
+                              "id": "UpwJv",
                               "fill": "$accent",
                               "content": "YOU ARE HERE",
                               "fontFamily": "Geist Mono",
@@ -1491,10 +1480,9 @@
                         },
                         {
                           "type": "frame",
-                          "id": "by",
-                          "layout": "horizontal",
-                          "cornerRadius": 999,
+                          "id": "o3UhM3",
                           "fill": "$badge-intermediate-bg",
+                          "cornerRadius": 999,
                           "stroke": "#f59e0b4d",
                           "strokeWidth": 1,
                           "padding": [
@@ -1504,7 +1492,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "tz",
+                              "id": "MLyCD",
                               "fill": "$badge-intermediate-text",
                               "content": "Intermediate",
                               "fontFamily": "Geist",
@@ -1515,7 +1503,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "t10",
+                          "id": "Q8SHJl",
                           "fill": "$text-primary",
                           "content": "Build & Ship",
                           "fontFamily": "Geist",
@@ -1524,7 +1512,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "t11",
+                          "id": "Rcw59",
                           "fill": "$text-muted",
                           "content": "4 weeks",
                           "fontFamily": "Geist Mono",
@@ -1535,30 +1523,28 @@
                     },
                     {
                       "type": "frame",
-                      "id": "c18",
-                      "layout": "vertical",
+                      "id": "rwR5T",
                       "width": "fill_container",
                       "height": 145,
-                      "padding": 16,
-                      "gap": 8,
-                      "cornerRadius": 16,
                       "fill": "#ffffff06",
+                      "cornerRadius": 16,
                       "stroke": "$border",
                       "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "s13",
-                          "height": 14,
+                          "id": "UvX14",
                           "width": "fill_container",
-                          "children": []
+                          "height": 14
                         },
                         {
                           "type": "frame",
-                          "id": "b14",
-                          "layout": "horizontal",
-                          "cornerRadius": 999,
+                          "id": "maWMM",
                           "fill": "$badge-advanced-bg",
+                          "cornerRadius": 999,
                           "stroke": "#d946ef4d",
                           "strokeWidth": 1,
                           "padding": [
@@ -1568,7 +1554,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "t15",
+                              "id": "BLB8l",
                               "fill": "$badge-advanced-text",
                               "content": "Advanced",
                               "fontFamily": "Geist",
@@ -1579,7 +1565,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "t16",
+                          "id": "dOPaU",
                           "fill": "$text-primary",
                           "content": "AI-Augmented Builder →",
                           "fontFamily": "Geist",
@@ -1588,7 +1574,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "t17",
+                          "id": "I7aQN",
                           "fill": "$text-muted",
                           "content": "6 weeks",
                           "fontFamily": "Geist Mono",
@@ -1647,7 +1633,6 @@
       "x": 2640,
       "y": 0,
       "name": "Syllabus — Advanced",
-      "clip": false,
       "width": 1280,
       "fill": "$bg",
       "layout": "vertical",
@@ -2190,7 +2175,7 @@
             },
             {
               "type": "frame",
-              "id": "op19",
+              "id": "uNxUX",
               "name": "Other paths",
               "width": "fill_container",
               "layout": "vertical",
@@ -2198,7 +2183,7 @@
               "children": [
                 {
                   "type": "text",
-                  "id": "t1b",
+                  "id": "hs1YU",
                   "fill": "$accent",
                   "content": "OTHER PATHS",
                   "fontFamily": "Geist Mono",
@@ -2208,38 +2193,35 @@
                 },
                 {
                   "type": "frame",
-                  "id": "r1a",
+                  "id": "dlTYd",
                   "width": "fill_container",
                   "height": 145,
                   "gap": 12,
-                  "alignItems": "start",
                   "children": [
                     {
                       "type": "frame",
-                      "id": "c1h",
-                      "layout": "vertical",
+                      "id": "F9eLL",
                       "width": "fill_container",
                       "height": 145,
-                      "padding": 16,
-                      "gap": 8,
-                      "cornerRadius": 16,
                       "fill": "#ffffff06",
+                      "cornerRadius": 16,
                       "stroke": "$border",
                       "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "s1c",
-                          "height": 14,
+                          "id": "iOaIX",
                           "width": "fill_container",
-                          "children": []
+                          "height": 14
                         },
                         {
                           "type": "frame",
-                          "id": "b1d",
-                          "layout": "horizontal",
-                          "cornerRadius": 999,
+                          "id": "hQ2TQ",
                           "fill": "$badge-beginner-bg",
+                          "cornerRadius": 999,
                           "stroke": "#10b9814d",
                           "strokeWidth": 1,
                           "padding": [
@@ -2249,7 +2231,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "t1e",
+                              "id": "Uswz8",
                               "fill": "$badge-beginner-text",
                               "content": "Beginner",
                               "fontFamily": "Geist",
@@ -2260,7 +2242,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "t1f",
+                          "id": "Qveeo",
                           "fill": "$text-primary",
                           "content": "← Your First Program",
                           "fontFamily": "Geist",
@@ -2269,7 +2251,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "t1g",
+                          "id": "MikF9",
                           "fill": "$text-muted",
                           "content": "2 weeks",
                           "fontFamily": "Geist Mono",
@@ -2280,30 +2262,28 @@
                     },
                     {
                       "type": "frame",
-                      "id": "c1n",
-                      "layout": "vertical",
+                      "id": "l6wpD",
                       "width": "fill_container",
                       "height": 145,
-                      "padding": 16,
-                      "gap": 8,
-                      "cornerRadius": 16,
                       "fill": "#ffffff06",
+                      "cornerRadius": 16,
                       "stroke": "$border",
                       "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "s1i",
-                          "height": 14,
+                          "id": "u13Ns9",
                           "width": "fill_container",
-                          "children": []
+                          "height": 14
                         },
                         {
                           "type": "frame",
-                          "id": "b1j",
-                          "layout": "horizontal",
-                          "cornerRadius": 999,
+                          "id": "ezdCc",
                           "fill": "$badge-intermediate-bg",
+                          "cornerRadius": 999,
                           "stroke": "#f59e0b4d",
                           "strokeWidth": 1,
                           "padding": [
@@ -2313,7 +2293,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "t1k",
+                              "id": "R2dZI",
                               "fill": "$badge-intermediate-text",
                               "content": "Intermediate",
                               "fontFamily": "Geist",
@@ -2324,7 +2304,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "t1l",
+                          "id": "VY6c2",
                           "fill": "$text-primary",
                           "content": "← Build & Ship",
                           "fontFamily": "Geist",
@@ -2333,7 +2313,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "t1m",
+                          "id": "piafo",
                           "fill": "$text-muted",
                           "content": "4 weeks",
                           "fontFamily": "Geist Mono",
@@ -2344,26 +2324,26 @@
                     },
                     {
                       "type": "frame",
-                      "id": "c1u",
-                      "layout": "vertical",
+                      "id": "UjxT2",
                       "width": "fill_container",
                       "height": 145,
-                      "padding": 16,
-                      "gap": 8,
-                      "cornerRadius": 16,
                       "fill": "#6366f11a",
+                      "cornerRadius": 16,
                       "stroke": "#6366f666",
                       "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "s1o",
-                          "height": 14,
+                          "id": "xLBQH",
                           "width": "fill_container",
+                          "height": 14,
                           "children": [
                             {
                               "type": "text",
-                              "id": "t1p",
+                              "id": "ve7rv",
                               "fill": "$accent",
                               "content": "YOU ARE HERE",
                               "fontFamily": "Geist Mono",
@@ -2375,10 +2355,9 @@
                         },
                         {
                           "type": "frame",
-                          "id": "b1q",
-                          "layout": "horizontal",
-                          "cornerRadius": 999,
+                          "id": "f8Quq",
                           "fill": "$badge-advanced-bg",
+                          "cornerRadius": 999,
                           "stroke": "#d946ef4d",
                           "strokeWidth": 1,
                           "padding": [
@@ -2388,7 +2367,7 @@
                           "children": [
                             {
                               "type": "text",
-                              "id": "t1r",
+                              "id": "JX32q",
                               "fill": "$badge-advanced-text",
                               "content": "Advanced",
                               "fontFamily": "Geist",
@@ -2399,7 +2378,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "t1s",
+                          "id": "kPoql",
                           "fill": "$text-primary",
                           "content": "AI-Augmented Builder",
                           "fontFamily": "Geist",
@@ -2408,7 +2387,7 @@
                         },
                         {
                           "type": "text",
-                          "id": "t1t",
+                          "id": "jqRgT",
                           "fill": "$text-muted",
                           "content": "6 weeks",
                           "fontFamily": "Geist Mono",
