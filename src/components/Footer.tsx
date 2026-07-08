@@ -6,7 +6,9 @@ export function Footer() {
           <span className="font-semibold text-foreground">ComputeBeauty</span> — learn
           software engineering with wonder.
         </p>
-        <p>Built with Next.js · A boilerplate for educators &amp; learners</p>
+        <p>
+          Built with Next.js · A boilerplate for educators &amp; learners · © 2026
+        </p>
       </div>
     </footer>
   );
