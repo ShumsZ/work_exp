@@ -1,3 +1,4 @@
+import { Account } from "@/components/Account";
 import { CallToAction } from "@/components/CallToAction";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -15,6 +16,7 @@ export default function Home() {
         <Pillars />
         <LearningPaths />
         <Principles />
+        <Account />
         <CallToAction />
       </main>
       <Footer />

@@ -4,6 +4,7 @@ const navLinks = [
   { href: "#pillars", label: "Explore" },
   { href: "#paths", label: "Paths" },
   { href: "#principles", label: "Philosophy" },
+  { href: "#account", label: "Account" },
 ];
 
 export function Header() {
