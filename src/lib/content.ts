@@ -88,34 +88,12 @@ export const principles: Principle[] = [
   },
 ];
 
-export type AccountOption = {
-  id: string;
-  title: string;
-  description: string;
-  buttonLabel: string;
-};
-
 export const accountSection = {
   eyebrow: "Your account",
   heading: "Track your learning journey",
   description:
     "Create an account to save your progress, bookmark paths, and pick up right where you left off.",
 };
-
-export const accountOptions: AccountOption[] = [
-  {
-    id: "sign-in",
-    title: "Sign in",
-    description: "Welcome back. Continue your paths and revisit labs you've started.",
-    buttonLabel: "Sign in",
-  },
-  {
-    id: "create-account",
-    title: "Create account",
-    description: "New here? Join learners building real skills in computing and AI.",
-    buttonLabel: "Get started",
-  },
-];
 
 export const stats = [
   { label: "Core concepts", value: "40+" },

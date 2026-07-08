@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useAccount } from "@/lib/accountContext";
 
 const navLinks = [
   { href: "#pillars", label: "Explore" },
@@ -8,6 +11,8 @@ const navLinks = [
 ];
 
 export function Header() {
+  const { user } = useAccount();
+
   return (
     <header className="sticky top-0 z-50 border-b border-surface-border bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
@@ -32,12 +37,29 @@ export function Header() {
           ))}
         </nav>
 
-        <Link
-          href="#cta"
-          className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-white transition hover:bg-accent-soft"
-        >
-          Start learning
-        </Link>
+        {user ? (
+          <a
+            href="#account"
+            className="flex items-center gap-2 rounded-full border border-surface-border bg-surface px-4 py-2 text-sm font-medium transition hover:border-accent/40"
+          >
+            <span className="flex h-6 w-6 items-center justify-center rounded-full bg-accent/20 text-xs text-accent-soft">
+              {user.name
+                .split(" ")
+                .map((part) => part[0])
+                .join("")
+                .slice(0, 2)
+                .toUpperCase()}
+            </span>
+            {user.name.split(" ")[0]}
+          </a>
+        ) : (
+          <Link
+            href="#account"
+            className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-white transition hover:bg-accent-soft"
+          >
+            Sign in
+          </Link>
+        )}
       </div>
     </header>
   );
