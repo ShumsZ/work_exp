@@ -1,0 +1,43 @@
+import Link from "next/link";
+
+const navLinks = [
+  { href: "#pillars", label: "Explore" },
+  { href: "#paths", label: "Paths" },
+  { href: "#principles", label: "Philosophy" },
+];
+
+export function Header() {
+  return (
+    <header className="sticky top-0 z-50 border-b border-surface-border bg-background/80 backdrop-blur-md">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <Link href="/" className="group flex items-center gap-2">
+          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent/20 text-lg text-accent-soft ring-1 ring-accent/30 transition group-hover:bg-accent/30">
+            λ
+          </span>
+          <span className="font-semibold tracking-tight">
+            Compute<span className="text-accent-soft">Beauty</span>
+          </span>
+        </Link>
+
+        <nav className="hidden items-center gap-8 md:flex">
+          {navLinks.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              className="text-sm text-muted transition hover:text-foreground"
+            >
+              {link.label}
+            </a>
+          ))}
+        </nav>
+
+        <Link
+          href="#cta"
+          className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-white transition hover:bg-accent-soft"
+        >
+          Start learning
+        </Link>
+      </div>
+    </header>
+  );
+}
